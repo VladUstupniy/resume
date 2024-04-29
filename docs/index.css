@@ -46,7 +46,7 @@ html, body {
 }
 
 .section {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 
@@ -94,8 +94,8 @@ html, body {
 
 /* ---------------------------------------------------------------------- Header ----------------------------------------------------------------------*/
 .header {
-    padding-top: 30px;
-    margin-bottom: 30px;
+    padding-top: 20px;
+    margin-bottom: 20px;
 }
 h1 {
     font-size: 24px;
@@ -120,7 +120,7 @@ h2 {
     display: flex;
     align-items: center;
     border-radius: 5px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-weight: bold;
 }
 
@@ -135,7 +135,7 @@ h2 {
 
 h3 {
     font-size: 1.17em;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .main p {
@@ -144,5 +144,5 @@ h3 {
 }
 
 .footer {
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
