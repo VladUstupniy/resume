@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    color: var(--textColor);
+    font-family: "Lato", sans-serif;
+}
+
+:root {
+    --bgColor: #282c34;
+    /* --bgColor: #2b3451; */
+    --bgColorDark: #21252b;
+    /* --bgColorDark: #283344; */
+    --textColor: #abb2b2;
+    --textColorDark: #80858f;
+    --pinkColor: #b360ad;
+    --orangeColor: #e5b456;
+    --blueColor: #60aed1;
+    --redColor: #d46b75;
+    --goldColor: #c59966;
+    --greenColor: #8ac378;
+    --aquaColor: #56b7c2;
+}
+
+/* -------------------------------------------------------------------- // Base -------------------------------------------------------------------- */
+
+
+
+
+
+/* ---------------------------------------------------------------------- Style ----------------------------------------------------------------------*/
+.wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: var(--bgColor);
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0px 30px;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+
+
+
+
+/* ---------------------------------------------------------------------- Colors ----------------------------------------------------------------------*/
+.bgColor {
+    color: var(--bgColor);
+}
+.bgColorDark {
+    color: var(--bgColorDark);
+}
+.textColor {
+    color: var(--textColor);
+}
+.textColorDark {
+    color: var(--textColorDark);
+}
+.pinkColor {
+    color: var(--pinkColor);
+}
+.orangeColor {
+    color: var(--orangeColor);
+}
+.blueColor {
+    color: var(--blueColor);
+}
+.redColor {
+    color: var(--redColor);
+}
+.goldColor {
+    color: var(--goldColor);
+}
+.greenColor {
+    color: var(--greenColor);
+}
+.aquaColor {
+    color: var(--aquaColor);
+}
+
+
+
+
+
+/* ---------------------------------------------------------------------- Header ----------------------------------------------------------------------*/
+.header {
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+h1 {
+    font-size: 24px;
+    line-height: 1.5;
+}
+h2 {
+    font-size: 20px;
+    line-height: 1.5;
+    padding-top: 10px;
+}
+
+
+
+
+
+/* ---------------------------------------------------------------------- Main ----------------------------------------------------------------------*/
+.main__block {
+    width: 100%;
+    height: 50px;
+    background-color: var(--textColorDark);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.list {
+    list-style-type: none;
+    padding-left: 25px;
+}
+
+.list li {
+    padding: 5px 0px;
+}
+
+h3 {
+    font-size: 1.17em;
+    margin-bottom: 15px;
+}
+
+.main p {
+    padding-left: 25px;
+    line-height: 1.5;
+}
+
+.footer {
+    padding-bottom: 30px;
+}
